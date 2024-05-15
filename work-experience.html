@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Matt Muller</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<!--WORK EXPERIENCE PAGE-->
+<body id="experiencePage">
+
+    <section class="header">
+        <nav>
+            <a href="home.html"><img src="images/matthew-logo-white-transparent.png" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="home.html" >HOME</a>
+                    </li>
+                    <li>
+                        <a href="education.html">EDUCATION</a>
+                    </li>
+                    <li>
+                        <a href="work-experience.html">WORK EXPERIENCE</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="contact-me.html">CONTACT ME</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<!--JavaScript for Side Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<!--JavaScript for Menu Links-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function homePage(){
+        window.location.href = "home.html";
+    }
+    function educationPage(){
+        window.location.href = "education.html";
+    }
+    function experiencePage(){
+        window.location.href = "work-experience.html";
+    }
+    function projectsPage(){
+        window.location.href = "projects.html";
+    }
+    function contactPage(){
+        window.location.href = "contact-me.html";
+    }
+</script>
+
+</body>
+</html>
