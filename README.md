@@ -1,5 +1,5 @@
 # MattMullerDev.com
-The code in this branch shows the changes that I made to the CSS file in order to make the website dynamically adapt to different window/screen sizes. I did this by changing the units that I used for many of the HTML elements and adding media queries to change the size of elements depending on the pixel dimensions of the window.
+The code in this branch shows the changes that I made to the CSS file in order to make the website dynamically adapt to different window/screen sizes. I did this by changing the units that I used for many of the HTML elements and adding media queries to change the size of elements depending on the dimensions of the window.
 
 
 I also activated the contact me email form to allow users of the site to send me an email. I did this by using an API called formsubmit which sends a POST request when the email form is submitted, resulting in the content of the form being sent to my email. I configured the HTML to display the email that I receive in the format that I desired and also added a honeypot to avoid bot emails while rerouting the user back to the website rather than having to complete a reCAPTCHA on formsubmit.
